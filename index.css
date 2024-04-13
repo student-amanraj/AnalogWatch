@@ -1,0 +1,39 @@
+#clockc{
+    position: relative;
+    margin: auto;
+    background-color: red;
+    height: 40vw;
+    width: 40vw;
+    background: url('clock.png')no-repeat;
+    background-size: 100%;
+    border: 2px solid red;
+    
+}
+#hour,#min,#sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#hour{
+    width: 1.8%;
+height: 30%;
+top: 18%; 
+left:48.5%;
+opacity: 0.8;
+}
+#min{
+    width: 1%;
+height: 35%;
+top: 14%; 
+left:48.5%;
+opacity: 0.8;
+}
+#sec{
+    width: 1%;
+height: 39%;
+top: 14%; 
+left:48.5%;
+opacity: 0.8;
+}
